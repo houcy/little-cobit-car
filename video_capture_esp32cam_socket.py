@@ -25,8 +25,8 @@ port = 82             #ESP32 Server Port
  
 sock.connect((host, port))
 
-face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
-#face_cascade = cv.CascadeClassifier('stop_sign.xml')
+#face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv.CascadeClassifier('stop_sign.xml')
 #eye_cascade = cv.CascadeClassifier('haarcascade_eye.xml')
 
 while True: 
